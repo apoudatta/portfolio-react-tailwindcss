@@ -5,6 +5,22 @@
     margin: 20px 170px;
 }
 
+.nav-logo {
+    position: relative;
+}
+.nav-logo h1 {
+    padding: 0px 30px;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: Outline;
+}
+.nav-logo img {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    z-index: -1;
+    width: 60%;
+}
 .nav-menu {
     display: flex;
     align-items: center;
@@ -46,6 +62,16 @@
 @media(max-width:768px) {
     .navbar {
         margin: 20px 50px;
+    }
+    .nav-logo h1 {
+        padding: 0px 0px;
+        font-size: 50px;
+        font-weight: 600;
+        font-family: Outline !important;
+    }
+    .nav-logo img {
+        bottom: 10px;
+        width: 70%;
     }
     .nav-connect {
         display: none;

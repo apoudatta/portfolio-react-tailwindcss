@@ -20,26 +20,33 @@ const About = () => {
                         <p>I'm eager to take on new challenges and look forward to providing exceptional service in my future freelancing journey.</p>
                     </div>
                     <div className='about-skills'>
-                        <div className='about-skill'><p>HTML & CSS</p> <hr style={{ width: "50%" }} /></div>
-                        <div className='about-skill'><p>React JS</p> <hr style={{ width: "50%" }} /></div>
-                        <div className='about-skill'><p>JavaScript</p> <hr style={{ width: "50%" }} /></div>
-                        <div className='about-skill'><p>Laraevel</p> <hr style={{width:"50%"}} /></div>
+                        <div className='about-skill'><p>HTML & CSS</p> <hr style={{ width: "90%" }} /></div>
+                        <div className='about-skill'><p>Tailwind CSS</p> <hr style={{ width: "80%" }} /></div>
+                        <div className='about-skill'><p>JavaScript</p> <hr style={{ width: "60%" }} /></div>
+                        <div className='about-skill'><p>React JS</p> <hr style={{ width: "60%" }} /></div>
+                        <div className='about-skill'><p>PHP</p> <hr style={{ width: "90%" }} /></div>
+                        <div className='about-skill'><p>Laravel</p> <hr style={{ width: "70%" }} /></div>
+                        <div className='about-skill'><p>MySQL</p> <hr style={{ width: "95%" }} /></div>
+                        <div className='about-skill'><p>RESTful API</p> <hr style={{ width: "50%" }} /></div>
+                        <div className='about-skill'><p>GitHub</p> <hr style={{ width: "75%" }} /></div>
+                        
+                        
                     </div>
                 </div>
             </div>
             <div className='about-achievements'>
                 <div className='about-achievement'>
-                    <h1>10+</h1>
+                    <h1>5+</h1>
                     <p>YEARS OF EXPERIENCE</p>
                 </div>
                 <hr />
                 <div className='about-achievement'>
-                    <h1>90+</h1>
+                    <h1>15+</h1>
                     <p>PROJECTS COMPLETED</p>
                 </div>
                 <hr />
                 <div className='about-achievement'>
-                    <h1>15+</h1>
+                    <h1>7+</h1>
                     <p>HAPPY CLIENTS</p>
                 </div>
             </div>

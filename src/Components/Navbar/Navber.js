@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import './Navbar.css'
-import logo from '../../assets/logo.svg'
+import theme_pattern from '../../assets/theme_pattern.svg'
 import underline from '../../assets/nav_underline.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import menu_open from '../../assets/menu_open.svg'
@@ -21,7 +21,13 @@ const Navber = () => {
 
     return (
         <div className='navbar'>
-            <img src={logo} alt='' />
+            
+            <div className='nav-logo'>
+                <h1>APOU</h1>
+                <img src={theme_pattern} alt='' />
+            </div>
+
+
             <img src={menu_open} onClick={openMenu} alt='' className='nav-mob-open' />
             
             <ul ref={menuRef} className='nav-menu'>

@@ -8,6 +8,22 @@
     display: flex;
     justify-content: space-between;
 }
+.footer-logo {
+    position: relative;
+}
+.footer-logo h1 {
+    padding: 0;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Outline !important;
+}
+.footer-logo img {
+    position: absolute;
+    bottom: 0;
+    right: 60;
+    z-index: -1;
+    width: 40%;
+}
 .footer-top-left p {
     font-size: 20px;
     max-width: 400px;
