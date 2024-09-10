@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *{
   margin: 0;
   padding: 0;
@@ -7,8 +11,34 @@ body{
   height: 100vh;
   background: #161513;
   color: white;
-  font-family: "Outfit", sans-serif;
+  font-family: "Outfit";
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+.bg-custom {
+  @apply bg-gradient-to-r from-[#B415FF] to-[#DF8908];
+}
+
+.font-outline {
+  font-family: Outline !important;
+}
+
+/* Navbar style */
+.navbar {
+  @apply flex flex-row items-center justify-between my-5 mx-12 md:mx-2 xl:mx-40;
+}
+.nav-menu {
+  @apply fixed md:static flex flex-col md:flex-row items-start md:items-center list-none gap-8 md:gap-14 text-xl top-0 bg-[#1F0016] md:bg-transparent w-[350px] md:w-auto h-full md:h-auto z-20 md:z-0 -right-96 md:right-0;
+  transition: right 0.5s;
+}
+.nav-connect {
+  @apply hidden lg:block py-2 lg:py-5 px-8 xl:px-10 rounded-full bg-custom text-lg xl:text-xl cursor-pointer duration-500 hover:scale-110;
+}
+.nav-menu li {
+  @apply text-3xl md:text-xl pl-24 md:pl-0 flex flex-row md:flex-col gap-5 md:gap-1 cursor-pointer;
+}
+.nav-menu li img {
+  @apply flex flex-col m-auto;
 }
