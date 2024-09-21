@@ -34,11 +34,42 @@ body{
   transition: right 0.5s;
 }
 .nav-connect {
-  @apply hidden lg:block py-2 lg:py-5 px-8 xl:px-10 rounded-full bg-custom text-lg xl:text-xl cursor-pointer duration-500 hover:scale-110;
+  @apply hidden lg:block py-2 lg:py-5 px-8 xl:px-10 ml-0 xl:ml-2 rounded-full bg-custom text-lg xl:text-xl cursor-pointer duration-500 hover:scale-110;
 }
 .nav-menu li {
   @apply text-3xl md:text-xl pl-24 md:pl-0 flex flex-row md:flex-col gap-5 md:gap-1 cursor-pointer;
 }
 .nav-menu li img {
   @apply flex flex-col m-auto;
+}
+
+.section-heading {
+  @apply relative;
+}
+.section-heading>h1 {
+  @apply p-0 md:px-7 text-5xl md:text-7xl font-semibold;
+}
+.section-heading>img {
+  @apply absolute bottom-0 right-0 -z-10 w-32 md:w-auto -right-5 md:right-0;
+}
+
+/* About */
+.about {
+  @apply flex flex-col items-center gap-20 mx-12 my-16 md:my-20 md:mx-44
+}
+.about-skill {
+  @apply flex flex-row gap-14 md:gap-12 items-center duration-500 hover:scale-110;
+}
+
+.about-skill hr {
+  @apply outline-none border-none h-1.5 md:h-2 rounded-full bg-custom;
+}
+.about-achievement {
+  @apply flex flex-col items-center gap-2.5 md:gap-3 duration-500 hover:scale-110;
+}
+.about-achievement h1 {
+  @apply bg-custom bg-clip-text text-transparent text-4xl md:text-6xl font-bold;
+}
+.about-achievement p {
+  @apply text-base md:text-xl font-medium text-center;
 }
