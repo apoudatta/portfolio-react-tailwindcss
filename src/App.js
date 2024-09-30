@@ -3,7 +3,7 @@ import Navber from './Components/Navber';
 import Hero from './Components/Hero';
 import About from './Components/About';
 import Services from './Components/Services';
-import MyWork from './Components/MyWork/MyWork';
+import MyWork from './Components/MyWork';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 

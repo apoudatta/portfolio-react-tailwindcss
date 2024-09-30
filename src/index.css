@@ -94,3 +94,14 @@ body{
 .services-format p {
   @apply text-[#d4d4d4] text-lg md:text-2xl max-w-80;
 }
+
+/* My work */
+.mywork-container {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 md:gap-10;
+}
+.mywork-container img {
+  @apply box-border w-[419px] h-auto duration-300 cursor-pointer hover:scale-110;
+}
+.mywork-showmore {
+  @apply flex gap-4 hover:gap-7 rounded-full border-2 border-white px-10  md:px-14 py-5 md:py-7 text-lg md:text-xl font-medium mb-10 md:mb-20 hover:duration-700 cursor-pointer; 
+}
