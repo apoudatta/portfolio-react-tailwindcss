@@ -16,7 +16,7 @@ const Hero = () => {
                 <span className='bg-custom bg-clip-text text-transparent'>I'm Apou Datto,</span> Full-Stack Web Developer
             </h1>
             <p className='w-3/5 md:w-1/2 text-center text-lg md:text-2xl mx-0 my-2'>
-                Specializing in Dynamic, Responsive and Scalable Web Applications | Laravel, MySQL, JS, React Expert.
+                Specializing in Dynamic, Responsive and Scalable Web Applications | Laravel, MySQL, JS, React, WordPress Expert.
             </p>
             <div className='hero-action flex items-center gap-4 md:gap-6 text-lg md:text-2xl font-medium mb-12'>
                 <div className='bg-custom px-7 md:px-11 py-5 md:py-6 rounded-full  hover:border-2'>

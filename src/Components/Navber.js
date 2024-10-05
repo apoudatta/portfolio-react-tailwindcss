@@ -19,7 +19,7 @@ const Navber = () => {
     }
 
     return (
-        <div className='navbar'>
+        <nav className='navbar'>
             
             <div className='relative'>
                 <h1 className='py-0 px-0 md:px-7 text-5xl xl:text-6xl font-outline font-semibold'>APOU</h1>
@@ -68,7 +68,7 @@ const Navber = () => {
                 </AnchorLink>
                 
             </div>
-        </div>
+        </nav>
     );
 };
 
