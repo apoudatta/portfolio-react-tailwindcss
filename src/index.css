@@ -27,7 +27,7 @@ body{
 
 /* Navbar style */
 .navbar {
-  @apply flex flex-row fixed top-0 w-full bg-[#1F0016] items-center justify-between py-1 px-12 md:px-2 xl:px-40;
+  @apply flex flex-row fixed top-0 w-full bg-[#1F0016] items-center justify-between py-1 px-12 md:px-2 xl:px-40 z-20;
 }
 .nav-menu {
   @apply fixed md:static flex flex-col md:flex-row items-start md:items-center list-none gap-8 md:gap-14 text-xl top-0 bg-[#1F0016] md:bg-transparent w-[350px] md:w-auto h-full md:h-auto z-20 md:z-0 -right-96 md:right-0;
