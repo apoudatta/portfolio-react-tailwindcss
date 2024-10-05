@@ -25,7 +25,7 @@ const Hero = () => {
                     </AnchorLink>
                 </div>
                 <div onClick={openPdf}
-                    className='px-12 md:px-20 py-5 md:py-6 rounded-full border-2 border-white hover:border-2 hover:border-[#B415FF]'>
+                    className='px-12 md:px-20 py-5 md:py-6 rounded-full border-2 border-black dark:border-white hover:border-2 hover:border-[#B415FF]'>
                     My Resume
                 </div>
             </div>
