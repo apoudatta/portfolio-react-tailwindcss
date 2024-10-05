@@ -27,7 +27,7 @@ const App = props => {
         <Contact />
         <Footer />
 
-        <button className='fixed w-16 h-16 bottom-16 right-16 bg-neutral-900 dark:bg-white rounded-full text-white dark:text-black font-semibold'
+        <button className='fixed w-16 h-16 bottom-2 md:bottom-16 right-2 md:right-16 bg-neutral-900 dark:bg-white rounded-full text-white dark:text-black font-semibold'
         onClick={toggleDarkMode}>
           { darkMode? "LHT" : "DRK"}
         </button>
